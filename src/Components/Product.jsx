@@ -7,7 +7,7 @@ function Product() {
             📦 CCTV Product Form
           </h1>
           <p className="text-black text-md p-6">
-            Fill in the product details to add to your inventory
+            Fill in the product details to add to your inventory system.
           </p>
         </div>
 
