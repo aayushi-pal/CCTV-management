@@ -53,7 +53,7 @@ function Dashboard() {
                 <td className="border p-2">Wireless CCTV Camera</td>
                 <td className="border p-2">Bullet</td>
                 <td className="border p-2">₹2,030.00</td>
-                <td className="border p-2 text-green-600 font-bold">In Stock</td>
+                <td className="border p-2 text-[#ff4a4a] font-bold">In Stock</td>
               </tr>
             </tbody>
           </table>

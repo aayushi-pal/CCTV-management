@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="w-full bg-teal-600 text-white px-6 py-4 flex justify-between items-center">
+    <nav className="w-full bg-[#a259f7] text-white px-6 py-4 flex justify-between items-center">
       {/* Logo */}
       <h1 className="text-2xl font-bold flex items-center gap-2">
         📹 CCTV Manage

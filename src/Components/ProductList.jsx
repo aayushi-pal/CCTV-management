@@ -22,14 +22,14 @@ function ProductList() {
             View and manage all your products ({products.length} items)
           </p>
         </div>
-        <button className="px-4 py-2 bg-teal-700 text-white rounded hover:bg-teal-800">
+        <button className="px-4 py-2 bg-[#a259f7] text-white rounded hover:bg-[#8425ef]">
           ⟳ Refresh
         </button>
       </header>
 
       {/* Search & Filter */}
       <div className="bg-white shadow rounded-2xl mb-6 p-4">
-        <h2 className="text-lg font-medium text-teal-900 mb-3">
+        <h2 className="text-lg font-medium text-[#a259f7] mb-3">
           🔍 Search & Filter Products
         </h2>
         <div className="flex gap-2">
@@ -49,12 +49,12 @@ function ProductList() {
 
       {/* Product List */}
       <div className="bg-white shadow rounded-2xl overflow-hidden">
-        <h2 className="bg-teal-100 text-teal-900 font-medium px-4 py-2 border-b">
+        <h2 className="bg-[#e4d2fa] text-[#a259f7] font-medium px-4 py-2 border-b">
           📦 Product List ({products.length} items)
         </h2>
 
         <table className="w-full text-left">
-          <thead className=" text-teal-800">
+          <thead className=" text-[#a259f7]">
             <tr>
               <th className="px-4 py-2">PRODUCT</th>
               <th className="px-4 py-2">BRAND</th>
@@ -88,7 +88,7 @@ function ProductList() {
                 <td className="px-4 py-2">{p.stock}</td>
                 <td className="px-4 py-2 text-gray-600">{p.added}</td>
                 <td className="px-4 py-2">
-                  <span className="px-2 py-1 bg-green-100 text-green-800 rounded">
+                  <span className="px-2 py-1 bg-[#dfc8f9] text-[#a259f7] rounded">
                     {p.status}
                   </span>
                 </td>

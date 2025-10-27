@@ -1,6 +1,6 @@
 function Product() {
   return (
-    <div className="flex-1 p-6 bg-gray-50">
+    <div className="flex-1  p-6 bg-gray-50">
       {/* Header */}
         <div>
           <h1 className="text-2xl font-bold text-black flex items-center gap-2">
@@ -21,7 +21,7 @@ function Product() {
           <button className="px-4 py-2 border rounded hover:bg-gray-100">
             ✖ Clear
           </button>
-          <button className="px-4 py-2 bg-teal-700 text-white rounded hover:bg-teal-800">
+          <button className="px-4 py-2 bg-[#a259f7] text-white rounded hover:bg-[#7d31d4]">
             💾 Save
           </button>
         </div>

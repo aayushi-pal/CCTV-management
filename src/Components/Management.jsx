@@ -21,7 +21,7 @@ function Management() {
         </h1>
 
         <div className="space-x-2"> 
-          <button className="px-4 py-2 bg-teal-700 text-white rounded hover:bg-teal-800">
+          <button className="px-4 py-2 bg-[#a259f7] text-white rounded hover:bg-[#8a2af7]">
             + Add User
           </button>
           <button className="px-4 py-2 border rounded hover:bg-gray-100">
@@ -44,12 +44,12 @@ function Management() {
 
       {/* Users Table */}
       <div className="bg-white shadow rounded-2xl overflow-hidden">
-        <h2 className="bg-teal-50 text-teal-900 font-medium px-4 py-2 border-b flex items-center gap-2">
+        <h2 className="bg-[#e6d7f8] text-[#a259f7] font-medium px-4 py-2 border-b flex items-center gap-2">
           👥 Users ({users.length})
         </h2>
 
         <table className="w-full text-left">
-          <thead className="bg-teal-800 text-white">
+          <thead className="bg-[#a259f7] text-white">
             <tr>
               <th className="px-4 py-2">ID</th>
               <th className="px-4 py-2">NAME</th>
@@ -72,10 +72,10 @@ function Management() {
                 </td>
                 <td className="px-4 py-2 text-gray-600">{user.email}</td>
                 <td className="px-4 py-2 space-x-2">
-                  <button className="px-3 py-1 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                  <button className="px-3 py-1 bg-[#30c968] text-white rounded-md hover:bg-[#17d55d]">
                     ✏ Edit
                   </button>
-                  <button className="px-3 py-1 bg-red-600 text-white rounded-md hover:bg-red-700">
+                  <button className="px-3 py-1 bg-[#ff4a4a] text-white rounded-md hover:bg-[#f72323]">
                     🗑 Delete
                   </button>
                 </td>
