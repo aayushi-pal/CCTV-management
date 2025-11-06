@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Register() {
   const [username, setUsername] = useState("");
@@ -14,7 +15,7 @@ function Register() {
     <div className="flex items-center justify-center h-screen bg-[#d3e6e6]">
       <div className="bg-white p-8 rounded-xl shadow-lg w-96 text-center">
         <h2 className="text-xl font-semibold mb-6 flex items-center justify-center gap-2">
-          <span className="text-2xl">📹</span> CCTV Register
+          <span className="text-2xl">📹</span> CCTV Register    
         </h2>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
